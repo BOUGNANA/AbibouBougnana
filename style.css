@@ -1,0 +1,121 @@
+style.css
+</body>
+
+
+    <style type="text/css"> 
+    	/* CSS */
+
+#html {height: 100%;
+         width: 100%;
+         }
+
+/*Barre de naviigation*/
+#Barre-de-navigation/ {
+	display: grid;
+	grid-template-columns: 1FR 50px 50px 100px;
+	grid-template-rows: 50px
+	grid-template-areas:
+	".Gmail image menu connexion";
+}
+
+a, p {
+	text-decoration: none;
+	color: black;
+	font-family: -windows-;
+	system, BlinkWindowsSystemFont, 'segoe UI' ; Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 13px;
+}
+#Gmail {
+	grid-area: Gmail;
+	justify-self: center;
+	align-self: center;
+}
+
+#Connexin {
+	grid-area: Connexion;
+	justify-self: center;
+	align-self: center;
+
+}
+
+/*barre de navigation*/
+#Recherche-Google {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 50px 50px 50px;
+    grid-template-areas: 
+    ". google ."
+    ". recherche ."
+    ". flexbox ."
+    ". langue .";
+}
+
+#Google {
+    grid-area: google;
+    justify-self: center;
+    align-self: end;
+}
+#Recherche {
+    grid-area: recherche;
+    height: 35px;
+    align-self: center;
+}
+#flexbox {
+    display: flexbox;
+    grid-area: flexbox;
+    justify-self: center;
+    align-self: center;
+}
+#btn-recherche {
+}
+#btn-chance {
+}
+
+#langue {
+    grid-area: langue;
+    justify-self: center;
+}
+
+/*pied de page*/
+
+#Pied-de-page {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 1fr 1fr 1fr 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    grid-template-areas: 
+    "france . . . . . . . ."
+    "a-propos publicité entreprise fonctionnement carbone info-conso confidentialité condition paramètres";
+
+}
+
+#France {
+    grid-area: france;
+    font-size: 20px;
+}
+#A-propos {
+    grid-area: a-propos;
+}
+#Publicité {
+    grid-area: publicité;
+}
+#Entreprise {
+    grid-area: entreprise;
+}
+#Fonctionnement {
+    grid-area: fonctionnement;
+}
+#Carbone {
+    grid-area: carbone;
+}
+#infos-conso {
+    grid-area: info-conso;
+}
+#confidentialité {
+    grid-area: confidentialité;
+}
+#Condition {
+    grid-area: condition;
+}
+#Paramètres {
+    grid-area: paramètres;
+}
